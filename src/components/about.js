@@ -119,7 +119,7 @@ function About() {
                         
                 </Right>
         </Conatiner>
-        <Footer />
+        
         </Section>
         
     )
