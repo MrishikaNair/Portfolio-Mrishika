@@ -4,6 +4,7 @@ import Footer from "./footer";
 import * as React from 'react';
 import Pinksemi from '../assets/port-pinksemi.png';
 import Pgraph from '../assets/graphp.png';
+import Girl from '../assets/girl_skills.png';
 import Blacksemi from '../assets/port-blacksemi.png';
 import Bgraph from '../assets/graphb.png';
 import '../styles/navbar.css';
@@ -33,6 +34,7 @@ const data2=[
 const Heading=styled.div`
         position: relative;
         margin-top:200px;
+        margin-bottom:90px;
         margin-left:-300px;
         
         background: -webkit-linear-gradient(#F5A5A5, rgb(72, 44, 44));
@@ -58,7 +60,7 @@ const Section=styled.div`
 `;
 const Conatiner=styled.div`
 
-    height: 100vh;
+    height: 40vh;
     scroll-snap-align: center;
     width:1000px;
     display: flex;
@@ -70,13 +72,15 @@ const Left=styled.div`
     padding-top: 20px;
     width: 500px;
     position: relative;
-    margin-left:-400px;
-    margin-top: 200px;
+    margin-left:-320px;
+    
+    
 `;
 
 const Right=styled.div`
     flex=1;
     width: 500px;
+    position: relative;
     margin-left:40px;
 `;
 const List=styled.ul`
@@ -90,8 +94,8 @@ const List=styled.ul`
 const ListItem=styled.li`
     font-size: 60px;
     font-family: 'Arial';
-    margin-top: 250px;
-    margin-left: -150px;
+    margin-top: 150px;
+    margin-left:-100px;
     font-weight: bold;
     cursor: pointer;
     color: transparent;
@@ -108,8 +112,8 @@ const ListItem1=styled.li`
     font-size: 60px;
     font-family: 'Arial';
     font-weight: bold;
-    margin-top: 670px;
-    margin-left: 550px;
+    margin-top: 180px;
+    margin-left: 300px;
     cursor: pointer;
     color: transparent;
     -webkit-text-stroke-width: 2px;
@@ -125,50 +129,35 @@ function Skills(){
             <Navbar />
             
             <Conatiner>
-            <Heading>Skills.</Heading>
-                <Left>
-                    
-                    <ListItem>DESIGNER</ListItem>
-                    <a href="#designer"><img  src={Pinksemi} alt="graph" class="centerp" style={{ marginTop:-170, marginLeft:460,align:'center', height: 550, width:300}} /></a>
-                </Left>
-
-                <Right>
-                
-                    <ListItem1>&lt;CODER&gt;</ListItem1>
-                    <a href="#coder"><img  src={Blacksemi} alt="graph" class="centerb" style={{ marginTop:-440,marginRight:460,align:'center', height: 550, width:300}} /></a>
-                </Right>
+                <Heading>Skills.</Heading>   
             </Conatiner>
-            
-    
+
+            <Left><ListItem>DESIGNER</ListItem></Left>
+            <Right><ListItem1>&lt;CODER&gt;</ListItem1></Right>
         <div>
         
-        <p class="basicp" style={{ marginTop:363, marginLeft:180}}>90%</p>
-        <p class="basicp" style={{ marginTop:363, marginLeft:720}}>UI/UX Design</p>
-        <p class="basicp" style={{ marginTop:453, marginLeft:180}}>90%</p>
-        <p class="basicp" style={{ marginTop:453, marginLeft:720}}>UX Research</p>
-        <p class="basicp" style={{ marginTop:543, marginLeft:180}}>60%</p>
-        <p class="basicp" style={{ marginTop:543, marginLeft:720}}>Interaction Design</p>
-        <p class="basicp" style={{ marginTop:633, marginLeft:180}}>90%</p>
-        <p class="basicp" style={{ marginTop:633, marginLeft:720}}>Graphic Design</p>
-        <p class="basicp" style={{ marginTop:723, marginLeft:180}}>70%</p>
-        <p class="basicp" style={{ marginTop:723, marginLeft:720}}>Adobe Stack</p>
         
         
-        <p class="basicb" style={{ marginTop:1190, marginLeft:1010}}>60%</p>
-        <p class="basicb" style={{ marginTop:1190, marginLeft:250}}>Full-stack development</p>
-        <p class="basicb" style={{ marginTop:1280, marginLeft:1010}}>80%</p>
-        <p class="basicb" style={{ marginTop:1280, marginLeft:397}}>HTML, CSS</p>
-        <p class="basicb" style={{ marginTop:1370, marginLeft:1010}}>70%</p>
-        <p class="basicb" style={{ marginTop:1370, marginLeft:300}}>Javascript, ReactJS</p>
-        <p class="basicb" style={{ marginTop:1460, marginLeft:1010}}>80%</p>
-        <p class="basicb" style={{ marginTop:1460, marginLeft:450}}>MySQL</p>
-        <p class="basicb" style={{ marginTop:1550, marginLeft:1010}}>80%</p>
-        <p class="basicb" style={{ marginTop:1550, marginLeft:380}}>Java, Python</p>
+        <p class="basicp" style={{ marginTop:-410,marginLeft:220}}>UI/UX Design</p>
+        <p class="basicp" style={{ marginTop:-315, marginLeft:220}}>UX Research</p>
+        <p class="basicp" style={{ marginTop:-230, marginLeft:220}}>Interaction Design</p>
+        <p class="basicp" style={{ marginTop:-133, marginLeft:220}}>Graphic Design</p>
+        <p class="basicp" style={{ marginTop:-40, marginLeft:220}}>Adobe Stack</p>
         
-        <div id="designer"><img  src={Pgraph} alt="graph"  style={{ marginTop:300,marginLeft:0,align:'center', height: 520}} /> 
+        
+        <p class="basicb" style={{ marginTop:-280, marginLeft:1200}}>Full-stack development</p>
+        <p class="basicb" style={{ marginTop:-190, marginLeft:1350}}>HTML, CSS</p>
+        <p class="basicb" style={{ marginTop:-100, marginLeft:1400}}>MySQL</p>
+        <p class="basicb" style={{ marginTop:-10, marginLeft:1250}}>Javascript, ReactJS</p>
+        <p class="basicb" style={{ marginTop:80, marginLeft:1340}}>Java, Python</p>
+        
+        
+        <div id="designer"><img  src={Pgraph} alt="graph"  style={{ marginLeft:0, marginTop:-470, align:'center', height: 520, width:600}} /> 
+        </div>
+        <div id="girl"><img  src={Girl} alt="girl" style={{ marginTop:-350,marginLeft:680,align:'center', height: 320}} />
         </div>
         
-        <div id="coder"><img  src={Bgraph} alt="graph" style={{ marginTop:300,marginLeft:570,align:'center', height: 520}} />
+        <div id="coder"><img  src={Bgraph} alt="graph" style={{ marginTop:-420,marginLeft:1100,align:'center', height: 520, width:600}} />
         </div>
     </div>
     <Footer />
