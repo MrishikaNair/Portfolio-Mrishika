@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .cont{
+    height:10px;
+    
+    width:600px;
+    
+  }
+  .sk{
+    position: relative;
+    margin-top:180px;
+    margin-left:50px;
+    background: -webkit-linear-gradient(#F5A5A5, rgb(72, 44, 44));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+  }
+ 
+  .hideimg{
+    display:none
+
+  }
+  .centerp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+    width: 50%;
+    
+  }
+  
+  .textph{
+    position:absolute;
+    margin-top:430px;
+    margin-left:90px;
+    color: #EEB2AE;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+   
+  }
+  .textpgra{
+    position:absolute;
+    margin-top:340px;
+
+    color: #EEB2AE;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+  }
+  .textbh{
+    position:absolute;
+    margin-top:430px;
+    margin-left:1050px;
+    color: rgb(88,91,93);
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+  }
+  .textbgra{
+    position:absolute;
+    margin-top:200px;
+    margin-left:1050px;
+    color: rgb(88,91,93);
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+  }
+  .textvertp{
+    position:absolute;
+    margin-top:528px;
+    margin-left:20px;
+    color: #EEB2AE;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    transform: rotate(-90deg);
+  }
+  .basicp{
+    position:absolute;
+    font-size: 30px;
+    color: #ffeceb;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .basicb{
+    position:absolute;
+    font-size: 30px;
+    color: rgb(193, 193, 193);
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .textvertb{
+    position:absolute;
+    margin-top:1350px;
+    margin-left:1130px;
+    color: rgb(88,91,93);
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    transform: rotate(90deg);
+  }
+  .centerb {
+    display: block;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+    width: 50%;
+  }
+  .centerp:hover + .hideimg{
+    position: absolute;
+    margin-top:-120px;
+    margin-left:90px;
+    display: block;
+    text-align:center;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+    line-height: 1.6;
+  }
+  .centerb:hover + .hideimg {
+    position: absolute;
+    margin-top:-120px;
+    margin-left:640px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align:center;
+    font-family: 'Inter', sans-serif;
+    transition-duration: 3s;
+    line-height: 1.6;
+    background-color: #000000;
+  }
+  .centerb:hover + .textvertb {
+    color: rgb(170, 170, 170);
+    transform: rotate(90deg);
+    position:absolute;
+    margin-top:-280px;
+    margin-left:1180px;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+  .centerp:hover + .textvertp{
+    color: #ffeae8;
+    transform: rotate(-90deg);
+    position:absolute;
+    margin-top:-280px;
+    margin-left:60px;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+  .footer{
+    height:90px;
+    position: relative;
+    height:80px;
+    width:100%;
+    text-align:center;
+    background-color:#0a0a0a;
+    
+  }
+  .footbut{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #6b6b6b;
+    font-size: 20px;
+    height: 35px;
+    margin-top:20px;
+    margin-left:40px;
+    margin-right:40px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #0a0a0a;
+  }
+  .footbut:hover{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #F5A5A5;
+    font-size: 20px;
+    height: 35px;
+    margin-top:20px;
+    margin-left:40px;
+    margin-right:40px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #0a0a0a;
+
+  }
+  .overlay {
+    position: absolute;
+    opacity: 0.9;
+    transition: .2s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+ 
+  

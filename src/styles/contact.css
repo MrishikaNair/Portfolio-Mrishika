@@ -1,0 +1,158 @@
+body {
+    margin-top: 0;
+    height:100px;
+    background-color: #000000;
+    
+  }
+
+  .con{
+    position: relative;
+    margin-top:2100px;
+    margin-left:50px;
+    background: -webkit-linear-gradient(#F5A5A5, rgb(72, 44, 44));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+  }
+  .text-mail{
+    position: absolute;
+    top: 900px;
+    left: 150px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+  }
+  .box{
+    width: 400px;
+    color:#ffffff;
+    margin-top:100px;
+    margin-left:50px;
+    position:absolute;
+    background-color: #000000;
+    border-radius: 0.2cm;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    }
+    .sub-btn:hover{
+    
+      background: radial-gradient(ellipse at top, #F5A5A5, transparent),
+            radial-gradient(ellipse at bottom, #DF5151, #ec7575);  
+      border: none;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+      color: white;
+      font-family:'Inter', sans-serif;
+      height: 42.3px;
+      margin: 0 auto;
+      margin-top: 30px;
+      transition: 0.25s;
+      width: 130px;
+    }
+    .sub-btn{
+      position: relative;
+      z-index: 100;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      color: #F5A5A5;
+      font-size: 17px;
+      height: 44px;
+      width:130px;
+      border-radius: 10px;
+      border-style:none;
+      background: #000000;
+      border-color:#F5A5A5; 
+      border: 1px solid #F5A5A5;
+      }
+  .footer{
+    height:90px;
+    position: relative;
+    height:80px;
+    width:100%;
+    margin-top: 200px;
+    text-align:center;
+    background-color:#0a0a0a;
+    
+  }
+  
+  .footbut{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #6b6b6b;
+    font-size: 20px;
+    height: 35px;
+    margin-top:20px;
+    margin-left:40px;
+    margin-right:40px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #0a0a0a;
+  }
+  .footbut:hover{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #F5A5A5;
+    font-size: 20px;
+    height: 35px;
+    margin-top:20px;
+    margin-left:40px;
+    margin-right:40px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #0a0a0a;
+
+  }
+  .overlay {
+    position: absolute;
+    opacity: 0.9;
+    transition: .2s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  Result Skip Results Iframe
+EDIT ON
+.input,
+.textarea {
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1px 6px;
+}
+
+.input-wrap {
+  position: relative;
+}
+.input-wrap .input {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.width-machine {
+  /*   Sort of a magic number to add extra space for number spinner */
+  padding: 0 1rem;
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 40px;
+  line-height: 20px;
+}
+
+.textarea[contenteditable]:empty::before {
+  content: "Placeholder still possible";
+  color: rgb(182, 56, 56);
+}
+
+
+  
+ 

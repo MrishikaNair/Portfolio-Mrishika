@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    
+    
+  }
+  .cont{
+    height:10px;
+    
+    width:600px;
+    
+  }
+  .ab{
+    position: relative;
+    margin-top:870px;
+    margin-left:90px;
+   
+    background: -webkit-linear-gradient(#F5A5A5, rgb(72, 44, 44));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+  }
+  .mb{
+    position: relative;
+    margin-top:600px;
+    margin-left:90px;
+    background: -webkit-linear-gradient(#F5A5A5, rgb(72, 44, 44));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+  }
+  .text{
+    position: relative;
+    margin-top:80px;
+    margin-left:90px;
+    font-size: 20px;
+    color: #949494;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    line-height: 1.4;
+
+  }
+  .one:hover{
+    position: absolute;
+    margin-top:-437px;
+    margin-left:70px;
+    font-size: 200px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    line-height: 1.4;
+    transition: 1s;
+
+  }
+  .hide {
+    display: none;
+    opacity:0.8;
+    font-size:25px;
+    margin-left: 10px;
+    transition: 1s ease;
+  }
+  .one{
+    position: absolute;
+    margin-top:-375px;
+    margin-left:80px;
+    font-size: 150px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    line-height: 1.4;
+    
+
+  }
+  .one:hover + .hide {
+    position: absolute;
+    margin-top:-300px;
+    margin-left:-540px;
+    display: block;
+    color: #c3c3c3;
+    text-align:left;
+    font-family: 'Inter', sans-serif;
+    width:400px;
+    line-height: 1.6;
+    
+    
+    transition: 1s ease;
+  }
+  .two:hover{
+    position: absolute;
+    margin-top:-380px;
+    margin-left:260px;
+    font-size: 200px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    line-height: 1.4;
+    transition: 1s;
+
+  }
+  .two{
+    position: absolute;
+    margin-top:-370px;
+    margin-left:270px;
+    font-size: 150px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    line-height: 1.4;
+    
+
+  }
+  .two:hover + .hide {
+    position: absolute;
+    margin-top:-300px;
+    margin-left:-540px;
+    display: block;
+    color: #c3c3c3;
+    text-align:left;
+    font-family: 'Inter', sans-serif;
+    width:400px;
+    line-height: 1.6;
+    
+    
+    transition: 1s ease;
+  }
+  .three:hover{
+    position: absolute;
+    margin-top:-440px;
+    margin-left:455px;
+    font-size: 200px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    line-height: 1.4;
+    transition: 1s;
+
+  }
+  .three{
+    position: absolute;
+    margin-top:-390px;
+    margin-left:465px;
+    font-size: 150px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    line-height: 1.4;
+    line-height: 1.6;
+
+  }
+  .three:hover + .hide {
+    position: absolute;
+    margin-top:-300px;
+    margin-left:-540px;
+    display: block;
+    color: #c3c3c3;
+    text-align:left;
+    font-family: 'Inter', sans-serif;
+    width:400px;
+    line-height: 1.6;
+    
+    
+    transition: 1s ease;
+  }
+  .four:hover{
+    position: absolute;
+    margin-top:-380px;
+    margin-left:640px;
+    font-size: 200px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    line-height: 1.4;
+    transition: 1s;
+
+  }
+  .four{
+    position: absolute;
+    margin-top:-370px;
+    margin-left:650px;
+    font-size: 150px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    line-height: 1.4;
+
+  }
+  .four:hover + .hide {
+    position: absolute;
+    margin-top:-300px;
+    margin-left:-540px;
+    display: block;
+    color: #c3c3c3;
+    text-align:left;
+    font-family: 'Inter', sans-serif;
+    width:400px;
+    line-height: 1.6;
+    
+    
+    transition: 1s ease;
+  }
+  .five:hover{
+    position: absolute;
+    margin-top:-270px;
+    margin-left:830px;
+    font-size: 200px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    line-height: 1.4;
+    transition: 1s;
+
+  }
+  .five{
+    position: absolute;
+    margin-top:-260px;
+    margin-left:840px;
+    font-size: 150px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+    line-height: 1.4;
+
+  }
+  .five:hover + .hide {
+    position: absolute;
+    margin-top:-300px;
+    margin-left:-540px;
+    display: block;
+    color: #c3c3c3;
+    text-align:left;
+    font-family: 'Inter', sans-serif;
+    width:400px;
+    line-height: 1.6;
+    
+    
+    transition: 1s ease;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

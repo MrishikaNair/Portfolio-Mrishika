@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+.background{
+  background-color:#1A272D ;
+  height:100vh;
+  width:100%;
+}
+.text-imgl {
+  position: absolute;
+  top: 290px;
+  left: 770px;
+  color: #ffffff;
+  font-size: 60px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: lighter;
+}
+.text-imgb {
+  position: absolute;
+  top: 370px;
+  left: 770px;
+  color: #ffffff;
+  font-size: 60px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.hearme:hover {
+  background: -webkit-radial-gradient(right, #84ffff, #75b8bd);
+  background: radial-gradient(ellipse at top, #F5A5A5, transparent),
+            radial-gradient(ellipse at bottom, #DF5151, #ec7575);  
+  color: #ffffff;
+  }
+  
+  .hearme{
+    position: absolute;
+    top: 500px;
+    left: 1150px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #F5A5A5;
+    font-size: 20px;
+    height: 45px;
+    width:120px;
+    border-radius: 4px;
+    border-style:none;
+    background: #000000;
+    border-color:#F5A5A5; 
+    border: 1px solid #F5A5A5;
+    }
+
+    
+    .footer{
+      height:90px;
+      position: absolute;
+      margin-top: 1000px;
+      height:80px;
+      width:100%;
+      text-align:center;
+      background-color:#0a0a0a;
+      
+    }
+    .footbut{
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      color: #6b6b6b;
+      font-size: 20px;
+      height: 35px;
+      margin-top:20px;
+      margin-left:40px;
+      margin-right:40px;
+      border-radius: 4px;
+      border-style: none;
+      background-color: #0a0a0a;
+    }
+    .footabut:hover{
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      color: #F5A5A5;
+      font-size: 20px;
+      height: 35px;
+      margin-top:20px;
+      margin-left:40px;
+      margin-right:40px;
+      border-radius: 4px;
+      border-style: none;
+      background-color: #0a0a0a;
+  
+    }
+    .overlay {
+      position: absolute;
+      opacity: 0.9;
+      transition: .2s ease;
+      background-color: #008CBA;
+    }
+    
+    .container:hover .overlay {
+      opacity: 1;
+    }
+   
