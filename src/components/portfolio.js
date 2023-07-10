@@ -197,7 +197,7 @@ function Portfolio(){
             </a>
             
         </section>
-        <Footer />
+        
         </Section>
         
         
